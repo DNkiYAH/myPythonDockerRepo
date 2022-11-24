@@ -28,7 +28,7 @@ spec:
   selector:
     app: python-app
   ports:
-    - protocol: HTTP
+    - protocol: TCP
       port: 5000
       targetPort: 5000
   type: LoadBalancer
